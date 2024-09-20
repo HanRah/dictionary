@@ -4,10 +4,10 @@ import { rial } from "@rial-pwa-monorepo/proto";
 export const dischargeStatusMapper: {
   [key: number]: string;
 } = {
-  [rial.DischargeStatuses.DISCHARGE_TRANSACTION_IN_PROGRESS]: ' در حال انجام',
+  [rial.DischargeStatuses.DISCHARGE_TRANSACTION_IN_PROGRESS]: 'pending',
   [rial.DischargeStatuses.DISCHARGE_AWAITING_FINANCIAL_SECTOR_CONFIRMATION]:
-    'در حال انجام',
-  [rial.DischargeStatuses.DISCHARGE_TRANSFER_IN_PROGRESS]: ' در حال انجام',
+    'pending',
+  [rial.DischargeStatuses.DISCHARGE_TRANSFER_IN_PROGRESS]: 'pending',
   [rial.DischargeStatuses.DISCHARGE_AWAITING_BANK_CONFIRMATION]:
     'در انتظار تایید بانک',
 
